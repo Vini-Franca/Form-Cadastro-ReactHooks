@@ -24,7 +24,7 @@ function validarCPF(cpf){
     }
   }
   function validarSobrenome(sobrenome){
-    if(sobrenome.match(/[A-Z][a-z]* [A-Z][a-z]*/)){
+    if(sobrenome.match(/[A-Z][a-z]*/)){
     return {valido:true, texto:""}
   }else{
     return {valido:false, texto:"Sobrenome deve ser composto por iniciais Maísculas"}
