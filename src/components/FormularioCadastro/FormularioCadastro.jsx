@@ -4,7 +4,7 @@ import DadosEntrega from "./DadosEntrega";
 import DadosPessoais from "./DadosPessoais";
 import DadosUsuario from "./DadosUsuario";
 
-function FormularioCadastro({ aoEnviar }) {
+function FormularioCadastro({ aoEnviar, validacoes }) {
   const [etapaAtual, setEtapaAtual] = useState(0);
   const [dadosColetados, setDados] = useState({});
   useEffect(() => {
@@ -31,7 +31,7 @@ function FormularioCadastro({ aoEnviar }) {
 
   return <>
     <Stepper activeStep={etapaAtual}>
-      <Step><StepLabel>Login</StepLabel></Step>
+      <Step ><StepLabel>Login</StepLabel></Step>
       <Step><StepLabel>Pessoal</StepLabel></Step>
       <Step><StepLabel>Endereço</StepLabel></Step>
       <Step><StepLabel>Finalização</StepLabel></Step>

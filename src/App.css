@@ -11,7 +11,15 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .MuiContainer-maxWidthSm {
+    padding-top: 150px;
+    background-color: transparent;
+  }
+  .MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiPaper-elevation0{
+    background-color: transparent;
+  }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -25,7 +33,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: transparent;
 }
 
 @keyframes App-logo-spin {
