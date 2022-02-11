@@ -28,6 +28,10 @@ function FormularioCadastro({ aoEnviar, validacoes }) {
   function proximo() {
     setEtapaAtual(etapaAtual + 1);
   }
+  
+  function anterior() {
+    setEtapaAtual(etapaAtual - 1);
+  }
 
   return <>
     <Stepper activeStep={etapaAtual}>

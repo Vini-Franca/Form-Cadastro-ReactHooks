@@ -119,10 +119,9 @@ function DadosPessoais({ aoEnviar }) {
           />
         }
       />
-
-      <Button type="submit" variant="contained" color="primary">
-        Próximo
-      </Button>
+      <p></p>
+      <Button type="submit" variant="contained" color="primary">Próximo</Button>
+      <Button type="submit" variant="contained" color="primary">Anterior</Button>
     </form>
   );
 }
