@@ -11,7 +11,7 @@ body {
 div::after {
   content: "";
   background: url("https://www.pixelstalk.net/wp-content/uploads/images5/The-best-4K-White-Background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   opacity: 40;
   top: 0;

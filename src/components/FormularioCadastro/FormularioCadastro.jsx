@@ -25,6 +25,11 @@ function FormularioCadastro({ aoEnviar, validacoes }) {
     setDados({ ...dadosColetados, ...dados });
     proximo();
   }
+
+  function voltar(dados) {
+    setDados({ ...dadosColetados, ...dados });
+    anterior();
+  }
   function proximo() {
     setEtapaAtual(etapaAtual + 1);
   }
@@ -41,7 +46,7 @@ function FormularioCadastro({ aoEnviar, validacoes }) {
       <Step><StepLabel>Finalização</StepLabel></Step>
     </Stepper>
     {formularios[etapaAtual]}
-  </>;
+  </>
 }
 
 export default FormularioCadastro;
